@@ -1,0 +1,60 @@
+{
+  "_from": "cordova-plugin-neutts",
+  "_id": "cordova-plugin-neutts@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-gqIryGT/8I4fBx+HoiQEfcWJWT2yYZFjTo0PkqjN2HGp0nM0CRfultYgkhJVL4qMIzZ6xoFyqzapFg4OFpVZbg==",
+  "_location": "/cordova-plugin-neutts",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-neutts",
+    "name": "cordova-plugin-neutts",
+    "escapedName": "cordova-plugin-neutts",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-neutts/-/cordova-plugin-neutts-1.0.0.tgz",
+  "_shasum": "d377f320dee4d0e52875202bcd1d9df6ad2e618d",
+  "_spec": "cordova-plugin-neutts",
+  "_where": "D:\\Temp\\github\\cordova\\helloworld",
+  "author": {
+    "name": "VILIC VANE"
+  },
+  "bugs": {
+    "url": "https://github.com/NeutrinosPlatform/cordova-plugin-neutts/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-neutts",
+    "platforms": [
+      "ios",
+      "wp8",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Text-to-Speech Plugin",
+  "homepage": "https://github.com/NeutrinosPlatform/cordova-plugin-neutts#readme",
+  "keywords": [
+    "cordova",
+    "tts",
+    "text-to-speech",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-wp8",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-neutts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeutrinosPlatform/cordova-plugin-neutts.git"
+  },
+  "version": "1.0.0"
+}

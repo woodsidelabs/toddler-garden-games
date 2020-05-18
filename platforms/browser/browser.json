@@ -1,0 +1,32 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-neutts": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "file": "plugins/cordova-plugin-neutts/www/tts.js",
+      "id": "cordova-plugin-neutts.tts",
+      "pluginId": "cordova-plugin-neutts",
+      "clobbers": [
+        "TTS"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-neutts": "1.0.0"
+  }
+}

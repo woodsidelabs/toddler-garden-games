@@ -24,9 +24,7 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    //background-color:#E4E4E4;
     background-color:#FFFFFF;
-    //background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
     font-size:12px;
     height:100vh;
@@ -34,7 +32,7 @@ body {
     padding:0px;
     /* Padding to avoid the "unsafe" areas behind notches in the screen */
     padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-right, 0px);
-    text-transform:uppercase;
+    text-transform:none;
     width:100%;
 }
 
@@ -133,3 +131,35 @@ h1 {
 #memory_gamearea {
 //    background: greenyellow;
 }
+
+/* --- Web/GitHub Pages enhancements ------------------------------------- */
+/* Cards are the primary touch target: give them a comfortable, square-ish
+   size that scales down on small screens instead of a fixed pixel size. */
+.memorycard {
+    display: inline-block;
+    padding: 4px;
+}
+.memorycard-img {
+    width: 96px;
+    height: 96px;
+    cursor: pointer;
+    border-radius: 10px;
+    touch-action: manipulation;
+}
+@media (max-width: 520px) {
+    .memorycard-img { width: 64px; height: 64px; }
+    #header p { font-size: 18px; }
+}
+/* The status line is the game's voice: make it readable, not a caption. */
+#status {
+    font-size: 20px;
+    font-weight: 600;
+    min-height: 1.4em;
+    margin: 8px 0;
+}
+/* Main-menu items should look like big friendly buttons on a tablet. */
+#mainmenu_option img {
+    max-width: 180px;
+    height: auto;
+}
+#footer { opacity: 0.6; font-size: 11px; }

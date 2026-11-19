@@ -30,8 +30,12 @@ run silently, with the on-screen text and hint images carrying the game.
 ## Deploying to GitHub Pages
 
 `.github/workflows/pages.yml` publishes `www/` on every push to `master`.
-Enable it once under **Settings → Pages → Build and deployment → Source:
-GitHub Actions**.
+
+The live site is <https://woodsidelabs.github.io/toddler-garden-games/>.
+
+A root-level `index.html` forwarder was briefly needed while Pages served the
+repository root, but the workflow uploads `www` as the site root, so the
+forwarder has been removed.
 
 ## Android build
 

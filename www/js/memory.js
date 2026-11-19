@@ -42,10 +42,12 @@ function MemoryCards(e) {
 	if (imgsrc.endsWith("card.png")) {
 		if (testCard == null) {
 			testCard = e.target;
-			document.getElementById("status").innerText = testCard.id;
+			document.getElementById("status").innerText = 'Pick another card';
 			e.target.src = "img/"+e.target.alt+".png";
+		} else if (e.target === testCard) {
+			// Tapping the same card again is not a match: ignore it.
+			return;
 		} else {
-			document.getElementById("status").innerText = testCard.id;
 			e.target.src = "img/"+e.target.alt+".png";
 			if (e.target.alt === testCard.alt) {
 				console.log('match!');

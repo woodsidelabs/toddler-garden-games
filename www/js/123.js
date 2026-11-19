@@ -1,6 +1,7 @@
 var testCard = null;
 var matchCount = 0, targetNumber = -1;
 var topRowCard = null, middleRowCard = null, bottomRowCard = null;
+var topRowNumber = -1, middleRowNumber = -1, bottomRowNumber = -1, pickMe = 0;
 
 // return random number between 1 and x
 function randomRange(x) {

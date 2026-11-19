@@ -1,6 +1,7 @@
 var testCard = null;
 var matchCount = 0, targetNumber = -1, targetHint;
 var topRowCard = null, middleRowCard = null, bottomRowCard = null;
+var topRowNumber = -1, middleRowNumber = -1, bottomRowNumber = -1, pickMe = 0;
 console.log(navigator.vendor);
 
 // speak in browser: https://developers.google.com/web/updates/2014/01/Web-apps-that-talk-Introduction-to-the-Speech-Synthesis-API
